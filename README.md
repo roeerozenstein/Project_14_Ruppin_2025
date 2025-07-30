@@ -28,7 +28,8 @@ Implemented CNN architectures:
 | `ResNet18WithSpatialAttention` | Adds spatial attention at final layer |
 | `ResNet18WithRepeatedSpatialAttention` | Spatial attention after every residual block |
 | `ResNet18WithCBAM` | Full CBAM (channel + spatial attention) |
-| `ResNet34*` | All the above also implemented for deeper ResNet34 |
+| `ResNet34` | Standard 34-layer residual network |
+| `ResNet34WithSpatialAttention` | Adds spatial attention at final layer |
 
 All support:
 - Custom input channels (default: `16`)
