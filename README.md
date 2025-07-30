@@ -18,17 +18,6 @@ These are combined to form a **16-channel input tensor**, allowing the model to 
 
 ---
 
-## Directory Structure
-
-Project_14_Ruppin_2025/
-├── attention_modules.py # Channel Attention, Spatial Attention, and CBAM
-├── models.py # ResNet variants with integrated attention
-├── dataset_utils.py # HDF5 loading, label encoding, and custom Dataset
-├── requirements.txt # Required packages
-└── README.md # Project description (this file)
-
----
-
 ## Model Variants
 
 Implemented CNN architectures:
